@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<title>Hang</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+<body>
+
+<div class="container">
+	<header class="default">
+		<h1>Hangdrum!</h1>
+	    <p>I ♥ Music</p>
+    </header>
+
+	<div class="row">
+		<div class="col-md-4">
+			<h3 class="text-center">6 Notes</h3>
+			<div class="hang hang6">
+			  <a href="#!" class="note C4V4" data-instrument="6notes" data-note="C4V4" data-key="82"><span>R</span></a>
+			  <a href="#!" class="note Bb3V4" data-instrument="6notes" data-note="Bb3V4" data-key="89"><span>Y</span></a>
+			  <a href="#!" class="note D4V4" data-instrument="6notes" data-note="D4V4" data-key="69"><span>E</span></a>
+			  <a href="#!" class="note F4V4" data-instrument="6notes" data-note="F4V4" data-key="84"><span>T</span></a>
+			  <a href="#!" class="note G4V4" data-instrument="6notes" data-note="G4V4" data-key="87"><span>W</span></a>
+			  <a href="#!" class="note Bb4V4" data-instrument="6notes" data-note="Bb4V4" data-key="81"><span>Q</span></a>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<h3 class="text-center">8 Notes</h3>
+			<div class="hang hang8">
+			  <a href="#!" class="note V4A3" data-instrument="8notes" data-note="V4A3" data-key="75"><span>K</span></a>
+			  <a href="#!" class="note V4B3" data-instrument="8notes" data-note="V4B3" data-key="71"><span>G</span></a>
+			  <a href="#!" class="note V4C4" data-instrument="8notes" data-note="V4C4" data-key="70"><span>F</span></a>
+			  <a href="#!" class="note V4D4" data-instrument="8notes" data-note="V4D4" data-key="72"><span>H</span></a>
+			  <a href="#!" class="note V4E4" data-instrument="8notes" data-note="V4E4" data-key="68"><span>D</span></a>
+			  <a href="#!" class="note V4F4" data-instrument="8notes" data-note="V4F4" data-key="74"><span>J</span></a>
+			  <a href="#!" class="note V4G4" data-instrument="8notes" data-note="V4G4" data-key="83"><span>S</span></a>
+			  <a href="#!" class="note V4A4" data-instrument="8notes" data-note="V4A4" data-key="65"><span>A</span></a>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<h3 class="text-center">11 Notes</h3>
+			<div class="hang hang13">
+			  <a href="#!" class="note oFd4" data-instrument="13notes" data-note="Fd4" data-key="49"><span>1</span></a>
+			  <a href="#!" class="note oCd4" data-instrument="13notes" data-note="Cd4" data-key="50"><span>2</span></a>
+			  <a href="#!" class="note oG4" data-instrument="13notes" data-note="G4" data-key="51"><span>3</span></a>
+			  <a href="#!" class="note oE4" data-instrument="13notes" data-note="E4" data-key="52"><span>4</span></a>
+			  <a href="#!" class="note oC4" data-instrument="13notes" data-note="C4" data-key="53"><span>5</span></a>
+			  <a href="#!" class="note oD4" data-instrument="13notes" data-note="D4" data-key="54"><span>6</span></a>
+			  <a href="#!" class="note oF4" data-instrument="13notes" data-note="F4" data-key="55"><span>7</span></a>
+			  <a href="#!" class="note oGd4" data-instrument="13notes" data-note="Gd4" data-key="56"><span>8</span></a>
+			  <a href="#!" class="note oEb4" data-instrument="13notes" data-note="Eb4" data-key="57"><span>9</span></a>
+			  <a href="#!" class="note oBb4" data-instrument="13notes" data-note="Bb4" data-key="86"><span>V</span></a>
+			  <a href="#!" class="note oB4" data-instrument="13notes" data-note="B4" data-key="66"><span>B</span></a>
+			  <a href="#!" class="note oA4" data-instrument="13notes" data-note="A4" data-key="78"><span>N</span></a>
+			  <a href="#!" class="note oC5" data-instrument="13notes" data-note="C5" data-key="77"><span>M</span></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="options">
+		<div class="btn-group" data-toggle="buttons">
+			<label class="btn btn-primary active">
+		    	<input type="radio" name="option" value="click" autocomplete="off" checked> Click
+			</label>
+			<label class="btn btn-primary">
+		    	<input type="radio" name="option" value="hover" autocomplete="off"> Hover
+			</label>
+		</div>
+		<div class="btn-group">
+			<a href="#!" class="btn btn-danger record">Record</a>
+			<a href="#!" class="btn btn-default open">Open</a>
+			<a href="#!" class="btn btn-default play">
+				<i class="glyphicon glyphicon-play"></i>
+			</a>
+			<a href="#!" class="btn btn-default save">
+				<i class="glyphicon glyphicon-save"></i>
+			</a>
+		</div>
+		<input type="text" class="form-control record-title" value="Untitled Composition" />
+		<textarea class="form-control record-area" style="width: 100%;"></textarea>
+	</div>
+	<footer class="default">
+		Powered By <a href="https://www.github.com/wutlu">@wutlu</a>
+	</footer>
+</div>
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/filesaver.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
